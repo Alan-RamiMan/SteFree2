@@ -1,0 +1,20 @@
+
+{% extends 'base.html' %}
+{% block content %}
+
+
+
+<div class="col-md-4 offset-md-4 my-4 mb-5 " id="contacto" >
+    <h4>Envianos tus consultas</h4>
+    
+    <form action="" class="form-control"  method="POST"><!--indicar metodo POST para enviar el formulario-->
+        {% csrf_token %} <!-- SEGURIDAD-->
+       
+        <hr>
+        <button type="submit" class="btn btn-primary my-3" >Enviar</button>{{Mensaje}}
+    </form>
+    
+    
+</div>
+    
+{% endblock %}

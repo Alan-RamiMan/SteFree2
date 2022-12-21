@@ -1,0 +1,16 @@
+django==4.1 
+django-environ==0.9.0
+Pillow==9.3.0
+psycopg2==2.9.5
+
+asgiref==3.5.2
+Pillow==9.3.0
+setuptools==58.1.0
+sqlparse==0.4.3
+tzdata==2022.6
+fontawesomefree==6.2.1
+
+
+django-admin-interface==0.20.0   # para cambiar la interface del admin
+django-crispy-forms==1.14.0
+crispy-bootstrap5==0.6
